@@ -1,4 +1,4 @@
-Envi
+Envi [![Build Status](http://travis-ci.org/favung/envi.png)](http://travis-ci.org/favung/envi)
 =====
 
 Envi is a command line tool that easily manage starting and stopping processes
@@ -35,7 +35,7 @@ $ envi
 ```
 
 ``` bash
-$ bundle exec envi [start]
+$ bundle exec envi
 ```
 
 Authors
