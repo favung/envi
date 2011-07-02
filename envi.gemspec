@@ -6,13 +6,14 @@ Gem::Specification.new do |s|
   s.name        = "envi"
   s.version     = Envi::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["TODO: Write your name"]
-  s.email       = ["TODO: Write your email address"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.authors     = ["Maciej Kowalewski", "Tomasz Zurkowski"]
+  s.homepage    = "http://github.com/favung/envi"
+  s.summary     = "envi-#{Envi::VERSION}"
+  s.description = "Best process manager"
 
   s.rubyforge_project = "envi"
+
+  s.add_development_dependency 'rspec', '~> 2.6.0'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
