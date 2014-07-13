@@ -1,3 +1,2 @@
 module Envi
-  # Your code goes here...
 end

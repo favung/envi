@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
-$:.unshift(File.dirname(__FILE__) + '/../lib') unless $:.include?(File.dirname(__FILE__) + '/../lib')
 
-# TODO execute CLI from here
+require 'envi'
+require 'envi/cli'
+
+Envi::CLI.start
